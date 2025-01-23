@@ -34,18 +34,14 @@
 <script src="/js/dom.js"></script>
 <script> console.log ("  adding js inside the html file " )</script>
 <script>
-const student = { 
-    name: 'abul' ,
 
- id:11 ,
- study: function ( time) {
-
-    console.log( time , "study kortece" )
- }
+    const listErCollection =document.getElementsByTagName( 'li') ;
+    
 
 
-}
-
+    for (const li of listErCollection ) {
+    console.log(li.innerText) ;
+    }
 </script>
 </body>
 </html>     

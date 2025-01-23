@@ -1,47 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tour of dom </title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
+
 <body>
-    <header>    <h1>    welcome to my dom </h1>
+    <header>
+        <h1> welcome to my dom </h1>
 
     </header>
- 
-    <main>  
-        
-        <h1>     my nawesome dom de baba  </h1>
-    </main>   
-    
- 
+
+    <main>
+
+        <h1> my nawesome dom de baba </h1>
+    </main>
 
 
-    <h1>  
-        
-        <ul> 
-        
-        <li>      jalali set  </li>  
-        <li>  shafayet  </li>
-        <li>  bonobash </li>
-        <li>  dom de  re abab  </li>
-
-      </ul>
-    <  </h1>
-      
-<script src="/js/dom.js"></script>
-<script> console.log ("  adding js inside the html file " )</script>
-<script>
-
-    const listErCollection =document.getElementsByTagName( 'li') ;
-    
+    <li> jalali set </li>
+    <li> shafayet </li>
+    <li> bonobash </li>
+    <li> dom de re abab </li>
 
 
-    for (const li of listErCollection ) {
-    console.log(li.innerText) ;
-    }
-</script>
+    <li> apple </li>
+    <li> banana</li>
+    <li> carrot</li>
+
+    </ul>
+    < </h1>
+
+        <script src="/js/dom.js"></script>
+        <script> console.log("  adding js inside the html file ")</script>
+        <script>
+
+            const listErCollection = document.getElementsByTagName('li');
+
+
+
+            for (const li of listErCollection) {
+                console.log(li.innerText ) ;
+            }
+
+            const allHeadings = document.getElementsByTagName('h1')
+
+
+
+
+            for (const h1 of allHeadings) {
+                console.log(h1.innerText);
+
+            }
+        </script>
 </body>
-</html>     
+
+</html>
